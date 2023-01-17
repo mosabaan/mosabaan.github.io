@@ -1,0 +1,30 @@
+h1 {
+    
+    font-family: 'Helvetica', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color:slateblue
+}
+
+h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color:coral
+}
+
+h4 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:coral
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+}
