@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+h1 {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-family:  'Roboto', Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family:  'Roboto', Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    line-height: 38px;
+    color: #786B5B;
+
+    background-image: url('images/pyramids_edited.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #7D2D2E;
+    color: #FFEDD9;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+    background: linear-gradient(180deg, #FFE8CF 0%, #D8AD5B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav li {
+    flex: 1; 
+    text-align: center;
+    padding: 0.75px;
+    transition: 1s;
+    line-height: 24px;
+ }
+
+.home_link {
+    font-size: 36px;
+    font-weight: 900;
+ }
+
+ li a {
+    color:#FFEDD9;
+}
+
+.flex {
+    padding: 60px;
+    display: flex;
+    width: 50%;;
+    margin: 80px auto;
+}
+
+.flex div {
+    flex: 1;
+}
+
+.left {
+    display: flex;
+}
+
+.left article{
+    flex: 1;
+}
+
+.right {
+    padding-left: 60px;
+}
+
+footer {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#262626;
+    color: #FFEDD9;
+    padding: 10px 100px 10px 100px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
