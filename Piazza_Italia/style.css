@@ -57,10 +57,11 @@ img {
 
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
     line-height: 38px;
     color: #786B5B;
+    background-color: #FFF9F1;
 }
 
 a {
@@ -77,13 +78,13 @@ a {
 
 .centered_paragraph {
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
   color: darkgray;
 
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 43%;
+  width: 35%;
   margin: auto;
 }
 
