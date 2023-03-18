@@ -7,3 +7,51 @@
 body {
     text-align: center;
 }
+
+#right-wheel, #left-wheel {
+    animation: wheel 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+#character {
+    animation: character 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+#hair {
+    animation: hair  1s ease-in-out infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes wheel {
+    from {
+        transform: rotateZ(0deg)
+    }
+
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+@keyframes character {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(20deg);
+    }
+}
+
+@keyframes hair {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(23%);
+    }
+}
