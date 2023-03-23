@@ -26,6 +26,12 @@ body {
     transform-box: fill-box;
 }
 
+#clouds {
+    animation: clouds 2s ease-in-out infinite alternate;
+    transform: center;
+    transform-box: fill-box;
+}
+
 @keyframes wheel {
     from {
         transform: rotateZ(0deg)
@@ -53,5 +59,15 @@ body {
 
     to {
         transform: translateY(23%);
+    }
+}
+
+@keyframes clouds {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(20deg);
     }
 }
