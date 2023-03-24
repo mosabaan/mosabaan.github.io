@@ -104,7 +104,7 @@ a {
   font-size: 36px;
   line-height: 43px;
   text-transform: uppercase;
-  color: #FF2828;
+  color: #FFFFFF;
 }
 
 .piazza_italia_wordmark_footer {
@@ -114,7 +114,7 @@ a {
   font-size: 32px;
   line-height: 38px;
   text-transform: uppercase;
-  color: #FF2828;
+  color: #FFFFFF;
 }
 
 .page_title {
@@ -170,21 +170,6 @@ text-fill-color: transparent;
   width: 100px;
 }
 
-.home_images_section {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-.home_hours {
-  margin-top: 0;
-  flex: 1;
-  min-height: 100px;
-  flex-grow: 1;
-  align-self: center;
-  margin-left: 50px;
-  line-height: 35px;
-}
-
 .section_text {
   flex: 1;
   min-height: 100px;
@@ -200,11 +185,37 @@ text-fill-color: transparent;
   align-self: center;
 }
 
-.homelogos_container {
+.socialmedia_icons__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FF2828;
+  background: #1F2C20;
+}
+
+.socialmedia_icons_attributes {
+  width: 100%;
+  padding-left: 210px;
+  padding-right: 210px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 270px;
+}
+
+.home_images_section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.home_hours {
+  margin-top: 0;
+  flex: 1;
+  min-height: 100px;
+  flex-grow: 1;
+  align-self: center;
+  margin-left: 50px;
+  line-height: 35px;
 }
 
 .deli_info {
