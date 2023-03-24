@@ -34,6 +34,11 @@ nav li {
 }
 
 li a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
   color:#BBFFC0;
 }
 
@@ -46,6 +51,15 @@ footer {
   background: #1F2C20;
   color: #BBFFC0;
   padding: 10px 100px 10px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_container {
+  display: grid;
+  column-count: 3;
+  grid-gap: 10px;
 }
 
 img {
@@ -53,11 +67,10 @@ img {
 }
 
 h3 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, sans-serif;;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  line-height: 35px;
   text-transform: uppercase;
   color: #FFE8D2;
 }
@@ -77,63 +90,23 @@ a {
   text-decoration: none;
 }
 
-.button {
-  display: inline-block;
-  border-radius: 30px;
-  background: #FF2828;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 16px;
-  padding: 20px;
-  width: 150px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button2 {
-  background: #379F3F;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
 .piazza_italia_wordmark {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
   font-family: 'Rockwell';
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 43px;
+  text-transform: uppercase;
+  color: #FF2828;
+}
+
+.piazza_italia_wordmark_footer {
+  font-family: 'Rockwell';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
   text-transform: uppercase;
   color: #FF2828;
 }
@@ -181,14 +154,6 @@ text-fill-color: transparent;
   letter-spacing: 0.1em;
 }
 
-.deli_info {
-  text-align: left;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 35%;
-  margin: auto;
-}
-
 .home_section_container {
   display: flex;
   justify-content: center;
@@ -227,18 +192,81 @@ text-fill-color: transparent;
   background: #FF2828;
 }
 
+.deli_info {
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 35%;
+  margin: auto;
+}
+
 .about_section_container {
-  display: flex;
+  width: 100%;
   justify-content: center;
-  align-items: center;
 }
 
 .about_section_content {
-  width: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 80px;
   margin-bottom: 40px;
   margin-left: 120px;
   margin-right: 120px;
+}
+
+.about_paragraph1 {
+  margin-left: 40px;
+}
+
+.about_paragraph2 {
+  margin-bottom: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 30px;
+  background: #FF2828;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 {
+  background: #379F3F;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .slider {
