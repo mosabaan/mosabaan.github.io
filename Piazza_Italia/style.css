@@ -25,6 +25,7 @@ nav ul {
   display: flex;
   list-style: none;
   align-items: center;
+  text-decoration: none;
 }
 
 nav li {
@@ -40,6 +41,7 @@ li a {
   font-size: 14px;
   line-height: 19px;
   color:#BBFFC0;
+  text-decoration: none;
 }
 
 footer {
@@ -50,7 +52,7 @@ footer {
   right: 0;
   background: #1F2C20;
   color: #BBFFC0;
-  padding: 10px 100px 10px 100px;
+  padding: 10px 10px 10px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +61,12 @@ footer {
 .footer_container {
   display: grid;
   column-count: 3;
-  grid-gap: 10px;
+  column-gap: 70px;
+}
+
+.footer_content {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 img {
