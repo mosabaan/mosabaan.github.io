@@ -39,7 +39,6 @@ li a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
   color:#BBFFC0;
   text-decoration: none;
 }
@@ -141,7 +140,7 @@ text-fill-color: transparent;
   font-size: 30px;
   line-height: 35px;
   text-transform: uppercase;
-  margin-left: 120px;
+  margin-left: 100px;
   color: #FF2828;
 }
 
@@ -168,15 +167,17 @@ text-fill-color: transparent;
 }
 
 .section_content {
-  width: 200px;
-  margin-top: 80px;
-  margin-bottom: 40px;
-  margin-left: 120px;
-  margin-right: 120px;
+  width: 100px;
 }
 
 .home_hours {
   margin-top: 0;
+  flex: 1;
+  min-height: 100px;
+  flex-grow: 1;
+  align-self: center;
+  margin-left: 50px;
+  line-height: 35px;
 }
 
 .section_text {
@@ -184,11 +185,13 @@ text-fill-color: transparent;
   min-height: 100px;
   flex-grow: 1;
   align-self: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .section_img {
   min-height: 100px;
-  flex-grow: 1;
+  flex-grow: 1.2;
   align-self: center;
 }
 
@@ -205,6 +208,13 @@ text-fill-color: transparent;
   padding-bottom: 50px;
   width: 35%;
   margin: auto;
+}
+
+.deli_togo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FF2828;
 }
 
 .about_section_container {
