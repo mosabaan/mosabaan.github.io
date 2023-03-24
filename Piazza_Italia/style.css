@@ -170,6 +170,11 @@ text-fill-color: transparent;
   width: 100px;
 }
 
+.home_images_section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 .home_hours {
   margin-top: 0;
   flex: 1;
