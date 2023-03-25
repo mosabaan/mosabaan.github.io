@@ -141,6 +141,17 @@ text-fill-color: transparent;
   font-size: 30px;
   line-height: 35px;
   text-transform: uppercase;
+  margin-left: 0px;
+  color: #FF2828;
+}
+
+.subheading_2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
   margin-left: 100px;
   color: #FF2828;
 }
