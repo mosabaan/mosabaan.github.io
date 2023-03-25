@@ -27,6 +27,19 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center center;
+}
+
+body.taj_page {
+    background-image: url('images/pyramids_w1440px.jpg')
+}
+
+body.colosseum_page {
+    background-image: url('images/pyramids_w1440px.jpg')
+}
+
+body.petra_page {
+    background-image: url('images/pyramids_w1440px.jpg')
 }
 
 img {
@@ -37,6 +50,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    margin-bottom: 45px;
 }
 
 .card:hover {
@@ -131,3 +145,44 @@ footer {
     padding: 10px 100px 10px 100px;
 }
 
+
+.container {
+    position: relative;
+    width: 100%;
+}
+  
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #7D2D2E;
+}
+
+.container:hover .overlay {
+opacity: 1;
+}
+
+.text {
+color: white;
+font-family: 'Roboto', Helvetica, sans-serif;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
